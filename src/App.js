@@ -1,6 +1,6 @@
 import "./App.css";
-import Amplify, { API } from "aws-amplify";
-import React, { useEffect, useState } from "react";
+import { API } from "aws-amplify";
+import React, { useState } from "react";
 
 const myAPI = "api8c92fafa";
 const path = "/customers";

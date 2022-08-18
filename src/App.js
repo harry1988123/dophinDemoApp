@@ -14,7 +14,7 @@ const App = () => {
     let customerId = e.input;
     API.get(myAPI, path + "/" + customerId)
       .then((response) => {
-        console.log(response);
+        console.log("Success" + response);
         let newCustomers = [...customers];
         newCustomers.push(response);
         setCustomers(newCustomers);

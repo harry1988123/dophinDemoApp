@@ -1,0 +1,108 @@
+2022-08-18T13:54:34.559Z [INFO]: # Cloning repository: git@github.com:harry1988123/dophinDemoApp.git
+2022-08-18T13:54:36.007Z [INFO]: Cloning into 'dophinDemoApp'...
+2022-08-18T13:54:36.007Z [INFO]: # Switching to commit: 8335a318c1d1258f3ad858413dac0820208a5564
+2022-08-18T13:54:36.021Z [INFO]: Note: switching to '8335a318c1d1258f3ad858413dac0820208a5564'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+                                 HEAD is now at 8335a31 Unused variables removed
+2022-08-18T13:54:36.078Z [INFO]: Successfully cleaned up Git credentials
+2022-08-18T13:54:36.079Z [INFO]: # Checking for Git submodules at: /codebuild/output/src455657064/src/dophinDemoApp/.gitmodules
+2022-08-18T13:54:36.106Z [INFO]: # Retrieving environment cache...
+2022-08-18T13:54:36.611Z [INFO]: # Retrieved environment cache
+2022-08-18T13:54:36.611Z [INFO]: ---- Setting Up SSM Secrets ----
+2022-08-18T13:54:36.611Z [INFO]: SSM params {"Path":"/amplify/d2u4z5rvikh6jd/dev/","WithDecryption":true}
+2022-08-18T13:54:46.497Z [INFO]: # Patching NPM package '@aws-amplify/cli' from 7.6.14 to 9.2.1...
+2022-08-18T13:56:11.865Z [INFO]: # Done patching NPM package '@aws-amplify/cli' to version 9.2.1
+2022-08-18T13:56:11.972Z [INFO]: # Retrieving cache...
+2022-08-18T13:56:12.017Z [INFO]: # Extracting cache...
+2022-08-18T13:56:12.025Z [INFO]: # Extraction completed
+2022-08-18T13:56:15.597Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## Backend environment association found
+2022-08-18T13:56:17.595Z [INFO]: [0mAmplify AppID found: d2u4z5rvikh6jd. Amplify App name is: amplifydemoapp[0m
+2022-08-18T13:56:17.701Z [INFO]: [0mBackend environment dev found in Amplify Console app: amplifydemoapp[0m
+2022-08-18T13:56:18.434Z [WARNING]: - Fetching updates to backend environment: dev from the cloud.
+2022-08-18T13:56:19.068Z [WARNING]: - Building resource api/api8c92fafa
+2022-08-18T13:56:19.155Z [WARNING]: ✔ Successfully pulled backend environment dev from the cloud.
+2022-08-18T13:56:19.169Z [INFO]: ✅
+2022-08-18T13:56:20.463Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+2022-08-18T13:56:21.321Z [WARNING]: - Initializing your environment: dev
+2022-08-18T13:56:21.952Z [WARNING]: - Building resource api/api8c92fafa
+2022-08-18T13:56:22.002Z [WARNING]: ✔ Initialized provider successfully.
+2022-08-18T13:56:22.693Z [WARNING]: - Uploading files...
+2022-08-18T13:56:22.791Z [WARNING]: - Building resource api/api8c92fafa
+2022-08-18T13:56:22.918Z [WARNING]: - Updating resources in the cloud. This may take a few minutes...
+2022-08-18T13:56:28.589Z [INFO]: 
+2022-08-18T13:56:28.591Z [INFO]: UPDATE_IN_PROGRESS amplify-amplifydemoapp-dev-193257 AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:23 GMT+0000 (Coordinated Universal Time) User Initiated
+2022-08-18T13:56:33.598Z [INFO]: 
+2022-08-18T13:56:33.599Z [INFO]: UPDATE_IN_PROGRESS functionamplifydemoappce3ad26b AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:29 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    functionamplifydemoappce3ad26b AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:29 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS apiapi8c92fafa                 AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:32 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:56:33.678Z [INFO]: 
+2022-08-18T13:56:33.678Z [INFO]: UPDATE_IN_PROGRESS amplify-amplifydemoapp-dev-193257-apiapi8c92fafa-1VL1HYDKCTB85 AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:33 GMT+0000 (Coordinated Universal Time) User Initiated
+2022-08-18T13:56:38.675Z [INFO]: 
+2022-08-18T13:56:38.677Z [INFO]: CREATE_IN_PROGRESS DeploymentAPIGWapi8c92fafa5f564bf5 AWS::ApiGateway::Deployment Thu Aug 18 2022 13:56:38 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:56:43.708Z [INFO]: 
+2022-08-18T13:56:43.709Z [INFO]: CREATE_IN_PROGRESS DeploymentAPIGWapi8c92fafa5f564bf5 AWS::ApiGateway::Deployment Thu Aug 18 2022 13:56:41 GMT+0000 (Coordinated Universal Time) Resource creation Initiated
+                                 CREATE_COMPLETE    DeploymentAPIGWapi8c92fafa5f564bf5 AWS::ApiGateway::Deployment Thu Aug 18 2022 13:56:42 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:56:48.777Z [INFO]: 
+2022-08-18T13:56:48.779Z [INFO]: UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-amplifydemoapp-dev-193257-apiapi8c92fafa-1VL1HYDKCTB85 AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:44 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:56:58.596Z [INFO]: 
+2022-08-18T13:56:58.597Z [INFO]: UPDATE_COMPLETE                     apiapi8c92fafa                    AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:55 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-amplifydemoapp-dev-193257 AWS::CloudFormation::Stack Thu Aug 18 2022 13:56:57 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:57:13.611Z [INFO]: 
+2022-08-18T13:57:13.613Z [INFO]: UPDATE_COMPLETE apiapi8c92fafa                    AWS::CloudFormation::Stack Thu Aug 18 2022 13:57:09 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE functionamplifydemoappce3ad26b    AWS::CloudFormation::Stack Thu Aug 18 2022 13:57:10 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE amplify-amplifydemoapp-dev-193257 AWS::CloudFormation::Stack Thu Aug 18 2022 13:57:10 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:57:24.042Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.398Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.400Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.401Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.402Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.491Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.544Z [WARNING]: - Uploading files...
+2022-08-18T13:57:24.619Z [WARNING]: ✔ All resources are updated in the cloud
+2022-08-18T13:57:24.619Z [INFO]: 
+2022-08-18T13:57:24.621Z [INFO]: [0mREST API endpoint: https://1enhk7qt7i.execute-api.us-east-1.amazonaws.com/dev[0m
+2022-08-18T13:57:24.621Z [INFO]: 
+2022-08-18T13:57:24.660Z [INFO]: ✅ Initialized your environment successfully.
+2022-08-18T13:57:24.661Z [INFO]: [32mYour project has been successfully initialized and connected to the cloud![39m
+                                 [32mSome next steps:[39m
+                                 [0m"amplify status" will show you what you've added already and if it's locally configured or deployed[0m
+                                 [0m"amplify add <category>" will allow you to add features like user login or a backend API[0m
+                                 [0m"amplify push" will build all your local backend resources and provision it in the cloud[0m
+                                 [0m"amplify console" to open the Amplify Console and view your project status[0m
+                                 [0m"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud[0m
+                                 [32mPro tip:[39m
+                                 [0mTry "amplify add api" to create a backend API and then "amplify push" to deploy everything[0m
+                                 ⚠️ The maximum number of apps that you can create with Amplify in this region has likely been reached:
+                                 For more information on Amplify Service Quotas, see:
+                                 https://docs.aws.amazon.com/general/latest/gr/amplify.html#service-quotas-amplify
+2022-08-18T13:57:26.017Z [INFO]: ## Completed Backend Build
+2022-08-18T13:57:26.020Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: build
+2022-08-18T13:57:26.020Z [INFO]: # Completed phase: build
+                                 ## Completed Frontend Build
+2022-08-18T13:57:26.044Z [INFO]: ## Build completed successfully
+2022-08-18T13:57:26.046Z [INFO]: # Starting caching...
+2022-08-18T13:57:26.068Z [INFO]: Nothing to cache
+2022-08-18T13:57:26.068Z [INFO]: # Caching completed
+2022-08-18T13:57:26.071Z [INFO]: !!Invalid custom header config file. The `customHeaders` key should be an array
+2022-08-18T13:57:26.144Z [WARNING]: !! No index.html detected in deploy folder: /codebuild/output/src455657064/src/dophinDemoApp/
+2022-08-18T13:57:26.145Z [INFO]: # Starting build artifact upload process...
+2022-08-18T13:57:26.388Z [INFO]: # Build artifact is: 1MB
+2022-08-18T13:57:26.389Z [INFO]: # Uploading build artifact '__artifactsHash.zip'...
+2022-08-18T13:57:26.423Z [INFO]: # Build artifact is: 1MB
+2022-08-18T13:57:26.423Z [INFO]: # Uploading build artifact '__artifacts.zip'...
+2022-08-18T13:57:26.605Z [INFO]: # Build artifact upload completed
+2022-08-18T13:57:26.606Z [INFO]: # Starting environment caching...
+2022-08-18T13:57:26.606Z [INFO]: # Uploading environment cache artifact...
+2022-08-18T13:57:26.681Z [INFO]: # Environment caching completed
+Terminating logging...

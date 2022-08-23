@@ -1,6 +1,7 @@
 import "./App.css";
 import { API } from "aws-amplify";
 import React, { useState } from "react";
+import LoginPage from "./LoginPage";
 
 const myAPI = "api8c92fafa";
 const path = "/customers";
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <LoginPage />
       <h1>Super Simple React App</h1>
       <div>
         <input

@@ -23,6 +23,10 @@
           "appId": "d2u4z5rvikh6jd",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "amplifydemoappb254c2b2": {},
+        "amplifydemoapp37027789": {}
       }
     }
   }
